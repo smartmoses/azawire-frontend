@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Nunito:wght@300;400;500;600;700;800;900;1000&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+
+nav .nav-logo {
+  width: 22px;
+}
+
+nav .logo-text {
+  display: inline;
+  font-weight: 600;
+  color: #072A6C;
+  padding-left: 2px;
+}
+
+nav ul .nav-item {
+  font-weight: 500;
+  font-size: 14px;
+  color: #262626;
+}
+nav ul .nav-item .dropdown button {
+  font-weight: 500;
+  font-size: 14px;
+  color: #262626;
+}
+
+nav ul .nav-item .dropdown .dropdown-item {
+  font-weight: 600;
+  color: #072A6C;
+
+}
+
+nav ul .nav-item .dropdown .dropdown-item span {
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  background: #F2F6FE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 3px;
+}
+
+nav .get-started-btn {
+  border-radius: 5px;
+  background: #072A6C;
+  padding: 7px 41px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+}
